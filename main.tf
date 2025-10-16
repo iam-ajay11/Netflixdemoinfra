@@ -4,7 +4,7 @@ region = "us-east-1"
 
 resource "aws_instance" "one" {
 count = 4
-ami = "ami-0341d95f75f311023"
+ami = "ami-0360c520857e3138f"
 instance_type = "t2.medium"
 key_name = "insta"
 vpc_security_group_ids = ["sg-0777ec6755223e598"]
